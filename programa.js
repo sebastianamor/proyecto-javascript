@@ -10,7 +10,10 @@ return "Medium"
 }
 else if (num < 20){
 return "Large"
-} else if (num >= 20){
+} else if (num < 25){
+return "extra large"
+}
+else if (num >= 30){
 return "Huge"
 }
 return "Change Me";
